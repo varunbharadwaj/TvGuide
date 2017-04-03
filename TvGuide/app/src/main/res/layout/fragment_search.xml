@@ -1,0 +1,64 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context="com.example.vb.tvguide.SearchFragment">
+
+        <LinearLayout
+            android:id="@+id/searchtextbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="53dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/search"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="@dimen/text_heading" />
+
+            <EditText
+                android:id="@+id/searchText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:backgroundTint="@color/lightPrimary"
+                android:contentDescription="@string/searchBoxDescription"
+                android:singleLine="true"
+                android:textColor="@color/secondaryTextColor" />
+
+            <Button
+                android:id="@+id/searchButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="50dp"
+                android:background="@color/lightPrimary"
+                android:contentDescription="@string/searchButtonDescription"
+                android:paddingBottom="10dp"
+                android:paddingLeft="80dp"
+                android:paddingRight="80dp"
+                android:paddingTop="10dp"
+                android:text="@string/buttonsearch" />
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="150dp"
+                android:background="@drawable/television" />
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>
+

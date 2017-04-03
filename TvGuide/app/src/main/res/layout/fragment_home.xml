@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vb.tvguide.HomeFragment">
+
+
+    <GridView
+        android:id="@+id/imageGrid"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/homeBackground"
+        android:columnWidth="100dp"
+        android:contentDescription="@string/gridDescription"
+        android:gravity="center"
+        android:horizontalSpacing="4dp"
+        android:numColumns="auto_fit"
+        android:padding="5dp"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="4dp"></GridView>
+
+    <TextView
+        android:id="@+id/empty_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="@string/no_data_available"
+        android:visibility="gone" />
+
+</RelativeLayout>

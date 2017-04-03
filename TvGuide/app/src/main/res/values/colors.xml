@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#00796B</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="homeBackground">#e0e0e0</color>
+    <color name="lightPrimary">#B2DFDB</color>
+    <color name="primaryTextColor">#212121</color>
+    <color name="secondaryTextColor">#757575</color>
+    <color name="white">#FFFFFF</color>
+    <color name="tabColor">#198679</color>
+    <color name="widget_background">#f7f9f9</color>
+</resources>

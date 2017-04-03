@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">TVGuide</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="schedule">Schedule</string>
+    <string name="network">Network</string>
+    <string name="summary">Summary</string>
+    <string name="tvmaze">http://www.tvmaze.com</string>
+    <string name="search">Enter show name</string>
+    <string name="buttonsearch">Search</string>
+    <string name="no_data_available">No Show found</string>
+    <string name="networkproblem">Network Problem</string>
+    <string name="location">Location</string>
+    <string name="currentlocation">Current Location: </string>
+    <string name="selectlocation">Select Location: </string>
+    <string name="permissionnotavail">Permission not granted</string>
+    <string name="yourlocation">Detected Location: </string>
+    <string name="autodetectlocation">Use Detected Location</string>
+    <string name="selectedlocation">Use Selected Location</string>
+    <string name="playservice">Google Play Service not Available</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="widget_heading">TV Guide</string>
+    <string name="empty_view_text">No Show Found</string>
+    <string name="pageTabStrip">Swipe left or right to navigate</string>
+    <string name="gridDescription">List of tv shows</string>
+    <string name="settingsGridDescription">location details</string>
+    <string name="detectedLocationDescription">use detected location</string>
+    <string name="selectedLocationDescription">use selected location</string>
+    <string name="favouriteDescription">favourite shows</string>
+    <string name="searchButtonDescription">presss to search</string>
+    <string name="searchBoxDescription">enter search string for tv show</string>
+    <string name="showDetailsDescription">details of selected show</string>
+    <string name="gridItemDescription">a tv show</string>
+    <string name="widgetDescription">widget for tv shows</string>
+    <string name="no_favourite_available">No Favourite Shows</string>
+    <string name="addToFav">Added To Favourites</string>
+    <string name="removeFromFav">Removed From Favourites</string>
+    <string name="locNotFound">Could not find Location</string>
+    <string name="seasonDetails">Season: </string>
+    <string name="languageDetails">Language: </string>
+    <string name="runTimeDetails">Run Time: </string>
+    <string name="episodeDetails">Episode: </string>
+    <string name="statusDetails">Status: </string>
+    <string name="typeDetails">Type: </string>
+    <string name="timeDetails">Time: </string>
+    <string name="daysDetails">Days: </string>
+    <string name="channelDetails">Channel: </string>
+    <string name="countryDetails">Country: </string>
+
+
+</resources>

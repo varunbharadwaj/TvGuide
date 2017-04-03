@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_settings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.vb.tvguide.Settings">
+
+        <GridLayout
+            android:id="@+id/settingsgrid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:contentDescription="@string/settingsGridDescription"
+            android:horizontalSpacing="20dp"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:rowCount="3"
+            android:verticalSpacing="2dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_margin="10dp"
+                android:text="@string/currentlocation"
+                android:textSize="@dimen/settings_text" />
+
+            <TextView
+                android:id="@+id/currentCountry"
+                android:layout_width="@dimen/settingsItemWidth"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="10dp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:textSize="@dimen/settings_text" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_margin="10dp"
+                android:text="@string/selectlocation"
+                android:textSize="@dimen/settings_text" />
+
+            <Spinner
+                android:id="@+id/spinner1"
+                android:layout_width="@dimen/settingsItemWidth"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="20dp"
+                android:background="@android:drawable/btn_dropdown"
+                android:ellipsize="end"
+                android:spinnerMode="dialog" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:layout_margin="10dp"
+                android:text="@string/yourlocation"
+                android:textSize="@dimen/settings_text" />
+
+            <TextView
+                android:id="@+id/autoSelectedCountry"
+                android:layout_width="@dimen/settingsItemWidth"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="10dp"
+                android:maxLines="2"
+                android:scrollHorizontally="false"
+                android:textSize="@dimen/settings_text" />
+        </GridLayout>
+
+
+        <Button
+            android:id="@+id/setDefaultBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="150dp"
+            android:background="@color/lightPrimary"
+            android:contentDescription="@string/detectedLocationDescription"
+            android:gravity="center_horizontal|bottom"
+            android:onClick="autoSelectButton"
+            android:paddingBottom="10dp"
+            android:paddingLeft="80dp"
+            android:paddingRight="80dp"
+            android:paddingTop="10dp"
+            android:text="@string/autodetectlocation" />
+
+        <Button
+            android:id="@+id/setSelectedBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/lightPrimary"
+            android:contentDescription="@string/selectedLocationDescription"
+            android:gravity="center_horizontal|bottom"
+            android:onClick="userSelectButton"
+            android:paddingBottom="10dp"
+            android:paddingLeft="80dp"
+            android:paddingRight="80dp"
+            android:paddingTop="10dp"
+            android:text="@string/selectedlocation" />
+
+    </LinearLayout>
+</ScrollView>
